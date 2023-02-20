@@ -1,0 +1,64 @@
+* {
+  text-decoration: none !important;
+  scroll-behavior: smooth;
+}
+#root {
+  margin: 0 auto;
+}
+
+.styleinput {
+  border-radius: 15px 0 0px 15px !important;
+}
+.styleinput::placeholder {
+  color: #fff !important;
+}
+.styleinputB {
+  border-radius: 0px 15px 15px 0px !important;
+}
+
+.channelIdBg {
+  background: rgb(2, 0, 36);
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(59, 59, 59, 0.9542410714285714) 42%,
+    rgba(0, 0, 0, 1) 74%
+  );
+}
+
+.scrollbody {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.scrollbody::-webkit-scrollbar {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .sidebarFixed {
+    position: fixed !important;
+    top: 10%;
+  }
+  .sidebar {
+    height: 85vh !important;
+  }
+  .react-player {
+    height: 80vh !important;
+  }
+}
+@media (min-width: 768px) {
+  form {
+    width: 400px !important;
+  }
+
+  .vidCard {
+    flex: 1 0 200px !important;
+    /* transition: scale 300ms; */
+  }
+  .react-player {
+    width: 100% !important;
+  }
+  /* .vidCard:hover {
+    scale: 1.1;
+  } */
+}
